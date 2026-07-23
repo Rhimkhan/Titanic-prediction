@@ -1,0 +1,45 @@
+{
+  "best_model": "RandomForest",
+  "results": {
+    "LogisticRegression": {
+      "accuracy": 0.8170610758897746,
+      "precision": 0.7739781746031745,
+      "recall": 0.7395566922421143,
+      "f1": 0.7558274442208898,
+      "roc_auc": 0.868487271291009
+    },
+    "RandomForest": {
+      "accuracy": 0.8395078777226791,
+      "precision": 0.8223520923520924,
+      "recall": 0.7427109974424553,
+      "f1": 0.7801984724895605,
+      "roc_auc": 0.8807953718891917
+    },
+    "XGBoost": {
+      "accuracy": 0.8473353838428223,
+      "precision": 0.830716525857655,
+      "recall": 0.7573316283034952,
+      "f1": 0.792187132354006,
+      "roc_auc": 0.8760807155294943
+    }
+  },
+  "best_params": {
+    "LogisticRegression": {
+      "C": 0.1,
+      "penalty": "l2"
+    },
+    "RandomForest": {
+      "max_depth": null,
+      "min_samples_leaf": 2,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    "XGBoost": {
+      "colsample_bytree": 0.8,
+      "learning_rate": 0.05,
+      "max_depth": 5,
+      "n_estimators": 300,
+      "subsample": 1.0
+    }
+  }
+}

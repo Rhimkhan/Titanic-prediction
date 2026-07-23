@@ -1,0 +1,10 @@
+[33m7b94f8b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mbackup-before-reset[m[33m)[m docs: update README with correct email configuration
+[33m09f1d29[m feat: add prediction generator with CSV export and probability scores
+[33m1112888[m feat: add model comparison script with Random Forest, Logistic Regression, and SVM
+[33me13b31c[m feat: add main prediction script with Random Forest model
+[33m8ca243c[m feat: add visualization module with survival plots
+[33m53036f1[m feat: add data analysis module for EDA
+[33mcbe4c3b[m chore: add gitignore file
+[33mdd574dd[m chore: add project dependencies
+[33m7dbb7f3[m docs: add README file with project description
+[33mcf47ccf[m feat: initial project setup with titanic prediction
